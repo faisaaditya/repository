@@ -55,7 +55,7 @@ export default {
   methods: {
     submitForm() {
       alert(`Thank you, ${this.form.name}! Your message has been sent.`);
-      // Here you would typically handle form submission, like sending the data to a server
+    
       this.form.name = "";
       this.form.email = "";
       this.form.message = "";

@@ -20,9 +20,9 @@
             </div>
           </div>
         </section>
-        <!-- Education Section Ends -->
+        
 
-        <!-- Experience Section Starts -->
+        <!-- Experience Section -->
         <section class="col">
           <header class="title">
             <h2>EXPERIENCE</h2>
@@ -39,7 +39,7 @@
             </div>
           </div>
         </section>
-        <!-- Experience Section Ends -->
+      
       </main>
     </div>
   </div>

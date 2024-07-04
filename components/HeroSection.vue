@@ -213,6 +213,14 @@
         </div>
       </div>
     </div>
+    <div class="container my-5">
+      <div class="text-center p-3" style="background-color: tr">
+    © 2024 Copyright :
+    <a class="text-white" >Faisaaditya</a>
+  </div>
+<footer class="bg-dark text-center text-white">
+  </footer>
+  </div>
   </section>
 </template>
 
