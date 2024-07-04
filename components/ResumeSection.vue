@@ -1,6 +1,8 @@
 <template>
   <div class="resume">
+  <h2>Resume</h2>
     <div class="container">
+      
       <main class="row">
         <!--  Education Section Starts -->
         <section class="col">
@@ -54,7 +56,7 @@ export default {
           years: "2018 - 2022",
           degree: "High School Degree",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "Lorem ipsum dolor sit amet,",
         },
         {
           years: "2018 - 2022",
