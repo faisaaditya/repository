@@ -1,6 +1,6 @@
 <template>
   <div class="contact-section">
-    <h2>Contact Us</h2>
+    <h2>Contact Me</h2>
     <form @submit.prevent="submitForm">
       <div class="form-group">
         <label for="name">Name</label>

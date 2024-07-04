@@ -53,7 +53,7 @@
                   class="d-flex flex-column align-items-center text-center rounded-4"
                 >
                   <img
-                    src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                    src="../assets/images/fotoProfile.jpg"
                     alt="Admin"
                     class="rounded-circle"
                     width="150"
@@ -99,7 +99,7 @@
                       ></path></svg
                     >Website
                   </h6>
-                  <span class="text-secondary">https://bootdey.com</span>
+                  <span class="text-secondary">Upcoming</span>
                 </li>
                 <li
                   class="list-group-item d-flex justify-content-between align-items-center flex-wrap"
@@ -122,7 +122,7 @@
                       ></path></svg
                     >Github
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">faisaaditya</span>
                 </li>
                 <li
                   class="list-group-item d-flex justify-content-between align-items-center flex-wrap"
@@ -145,7 +145,7 @@
                       ></path></svg
                     >Twitter
                   </h6>
-                  <span class="text-secondary">@bootdey</span>
+                  <span class="text-secondary">@adityaAtha</span>
                 </li>
                 <li
                   class="list-group-item d-flex justify-content-between align-items-center flex-wrap"
@@ -177,7 +177,7 @@
                       <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg
                     >Instagram
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">faisaaditya</span>
                 </li>
                 <li
                   class="list-group-item d-flex justify-content-between align-items-center flex-wrap"
@@ -200,7 +200,7 @@
                       ></path></svg
                     >Facebook
                   </h6>
-                  <span class="text-secondary">bootdey</span>
+                  <span class="text-secondary">Faisa Aditya</span>
                 </li>
               </ul>
             </div>
@@ -261,7 +261,7 @@ export default {
 
 .navbar {
   padding: 5px;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 .card {
