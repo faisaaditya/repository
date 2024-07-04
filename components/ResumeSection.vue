@@ -1,10 +1,9 @@
 <template>
   <div class="resume">
-  <h2>Resume</h2>
+    <h2>Resume</h2>
     <div class="container">
-      
       <main class="row">
-        <!--  Education Section Starts -->
+        <!-- Education Section Starts -->
         <section class="col">
           <header class="title">
             <h2>EDUCATION</h2>
@@ -21,9 +20,9 @@
             </div>
           </div>
         </section>
-        <!--  Education Section Ends -->
+        <!-- Education Section Ends -->
 
-        <!--  Experience Section Starts -->
+        <!-- Experience Section Starts -->
         <section class="col">
           <header class="title">
             <h2>EXPERIENCE</h2>
@@ -40,7 +39,7 @@
             </div>
           </div>
         </section>
-        <!--  Experience Section Ends -->
+        <!-- Experience Section Ends -->
       </main>
     </div>
   </div>
@@ -53,42 +52,37 @@ export default {
     return {
       educationData: [
         {
-          years: "2018 - 2022",
+          years: "2018 - 2021",
           degree: "High School Degree",
           description:
-            "Lorem ipsum dolor sit amet,",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
         {
-          years: "2018 - 2022",
-          degree: "Bachelors Degree",
+          years: "2022 - Present",
+          degree: "Bachelor's Degree",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
-        {
-          years: "2018 - 2022",
-          degree: "Master Degree",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-        },
+       
       ],
       experienceData: [
         {
           years: "2018 - 2022",
           position: "UI/UX Designer",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
         {
           years: "2018 - 2022",
           position: "Full-Stack Developer",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
         {
           years: "2018 - 2022",
           position: "Frontend Developer",
           description:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
       ],
     };
@@ -102,6 +96,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+
 .resume {
   padding: 50px 0;
   background: #ffffff;
@@ -117,23 +112,24 @@ export default {
   width: 100%;
   padding: 35px 10%;
 }
-.container {
-  padding-right: calc(10% - 30px);
-}
+
 main.row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
 }
+
 .col header.title {
   font-family: helvetica;
-  color: #11a372;
+  color: #1a73e8; 
   padding: 0px 0px 20px 30px;
 }
+
 .col .contents {
   padding: 0px 30px;
   border-left: 2px solid #bababa;
 }
+
 .col .contents .box {
   position: relative;
   padding: 20px;
@@ -143,10 +139,12 @@ main.row {
   transition: all 0.4s;
   margin-bottom: 20px;
 }
+
 .col .contents .box:hover {
   box-shadow: 0px 3px 12px 0px #ccc;
   border: 1px solid transparent;
 }
+
 .col .contents .box::before {
   content: "";
   position: absolute;
@@ -155,24 +153,28 @@ main.row {
   border-radius: 50%;
   right: calc(100% + 22px);
   top: 0;
-  background-color: #11a372;
+  background-color: #1a73e8; 
   border: 2px solid white;
 }
+
 .box h4 {
   position: relative;
-  color: #11a372;
+  color: #1a73e8; 
 }
+
 .box h3 {
-  font-size: 19px;
-  padding: 10px 0px 6px;
+  font-size: 16px; 
+  padding: 8px 0px 6px; 
   font-family: helvetica;
   color: #444;
 }
+
 .box p {
   line-height: 1.2;
   color: #666;
-  font-size: 17px;
+  font-size: 14px; 
 }
+
 @media (max-width: 768px) {
   main.row {
     grid-template-columns: 1fr;

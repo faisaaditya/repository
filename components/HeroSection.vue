@@ -205,9 +205,9 @@
               </ul>
             </div>
           </div>
-          <divdiv class="col-md-8 mb-3">
+          <div class="col-md-8 mb-3">
             <component :is="getCurrentSection" />
-          </divdiv>
+          </div>
 
           <!-- Component Menu-->
         </div>
